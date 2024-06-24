@@ -4,7 +4,7 @@ import profile2 from "../../../images/profile2.png";
 
 export function ActivityFeed() {
     return (
-        <div className="w-5/12 p-2">
+        <div className="p-2">
             <h1 className="bg-[#FFFFFF] font-medium mb-0 text-[16px] p-3 border-1 border-[#E4E7EC] rounded-top-2">Activity
                 Feed</h1>
             <div className="bg-[#FFFFFF] font-normal mb-0 text-[14px] p-3 border-1 border-[#E4E7EC] rounded-bottom-2">

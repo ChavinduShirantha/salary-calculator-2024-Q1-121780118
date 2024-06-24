@@ -27,39 +27,17 @@
     color: #BC006D;
     border: 1px solid #BC006D;
     border-radius: 5px;
+    font-weight: 600;
+}
+
+.pagination li.active a:hover {
+    color: #FFFFFF;
+    background-color: #BC006D;
+    border: 1px solid #BC006D;
+    border-radius: 5px;
+    font-weight: 600;
 }
 
 .task-chart-container {
     text-align: center;
-}
-
-.doughnut-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.legend {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-}
-
-.legend ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.legend li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-}
-
-.dot {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 5px;
 }

@@ -3,6 +3,7 @@ import close from "../../../images/Close.png";
 import {TaskTable} from "../TaskTable/TaskTable";
 import {Container} from "react-bootstrap";
 import {ActivityFeed} from "../ActivityFeed/ActivityFeed";
+import PriorityChart from "../PriorityChart/PriorityChart";
 
 export function Dashboard() {
     return (
@@ -20,9 +21,14 @@ export function Dashboard() {
                 </div>
             </div>
             <div className="w-full">
-                <Container className="mt-5 flex flex-wrap">
-                    <TaskTable/>
-                    <ActivityFeed/>
+                <Container className="mt-5 flex flex-row">
+                    <div className="basis-7/12">
+                        <TaskTable/>
+                    </div>
+                    <div className="basis-5/12">
+                        <ActivityFeed/>
+                        <PriorityChart/>
+                    </div>
                 </Container>
             </div>
         </div>

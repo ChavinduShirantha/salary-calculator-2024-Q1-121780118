@@ -32,7 +32,7 @@ export function TaskTable(props) {
     const currentTasks = tasks.slice(indexOfFirstTask, indexOfLastTask);
 
     return (
-        <div className="w-7/12 p-2">
+        <div className="p-2">
             <h1 className="bg-[#FFFFFF] font-medium mb-0 text-[16px] p-3 border-1 border-[#E4E7EC] rounded-top-2">Tasks</h1>
             <ListGroup className="mb-4">
                 {currentTasks.map(function(task, index) {
