@@ -4,7 +4,7 @@ import chevron from '../../../images/Chevron-down.png';
 
 export function NavBar() {
     return (
-        <div className="w-full p-2 bg-white shadow flex justify-between h-[80px]">
+        <div className="w-full p-2 shadow-lg flex justify-between h-[80px]">
 
             <div className="flex">
                 <h1 className="ml-2 mt-4 text-black text-center text-[20px] font-semibold font-sans">Dashboard</h1>

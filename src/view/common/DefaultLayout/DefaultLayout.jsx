@@ -9,7 +9,7 @@ export function DefaultLayout() {
                 <div className="flex basis-1/6 bg-[#33074F]">
                     <SideBar/>
                 </div>
-                <div className="flex flex-wrap basis-5/6 ">
+                <div className="flex flex-wrap basis-5/6 bg-[#FAFAFA]">
                     <NavBar/>
                     <MainContent/>
                 </div>
