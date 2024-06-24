@@ -6,7 +6,7 @@ export function Dashboard() {
         <div className="flex flex-wrap border-2 h-fit w-full rounded-lg">
             <div className="w-full flex justify-between">
                 <h1 className="text-[24px] font-semibold font-sans ml-4 mt-4 mb-1">Welcome back, John Doe</h1>
-                <img className="h-[7.4em] absolute right-28" src={img} alt=""/>
+                <img className="h-[9em] absolute right-28" src={img} alt=""/>
                 <img className="h-[24px] mr-4 mt-4" src={close} alt=""/>
             </div>
             <div className="ml-4 mb-4">
