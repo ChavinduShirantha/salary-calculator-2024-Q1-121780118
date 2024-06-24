@@ -2,6 +2,7 @@ import img from "../../../images/Group1770.png";
 import close from "../../../images/Close.png";
 import {TaskTable} from "../TaskTable/TaskTable";
 import {Container} from "react-bootstrap";
+import {ActivityFeed} from "../ActivityFeed/ActivityFeed";
 
 export function Dashboard() {
     return (
@@ -18,9 +19,12 @@ export function Dashboard() {
                     <span className="text-[14px] text-[#BC006D] font-normal font-sans hover:cursor-pointer underline">Look here for more information</span>
                 </div>
             </div>
-            <Container className="mt-5">
-                <TaskTable/>
-            </Container>
+            <div className="w-full">
+                <Container className="mt-5 flex flex-wrap">
+                    <TaskTable/>
+                    <ActivityFeed/>
+                </Container>
+            </div>
         </div>
     )
 }

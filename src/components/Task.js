@@ -28,7 +28,7 @@ function Task(props) {
                                                         style={{color: '#F2C94C'}}>In-Progress</Badge>}
                     {task.completed === true &&
                         <Badge bg={"#E8F5E9"} style={{color: '#219653'}} className="ms-2 bg-[#E8F5E9]">Done</Badge>}
-                    <span className="ms-3">{formatDate(task.createdAt)}</span>
+                    <span className="ms-3 text-[#757575]">{formatDate(task.createdAt)}</span>
                 </div>
             </div>
 
