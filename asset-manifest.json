@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/salary-calculator-2024-Q1-121780118/frontend/static/css/main.468e340f.css",
-    "main.js": "/salary-calculator-2024-Q1-121780118/frontend/static/js/main.869ed2b2.js",
-    "static/js/453.8ab44547.chunk.js": "/salary-calculator-2024-Q1-121780118/frontend/static/js/453.8ab44547.chunk.js",
-    "index.html": "/salary-calculator-2024-Q1-121780118/frontend/index.html",
-    "main.468e340f.css.map": "/salary-calculator-2024-Q1-121780118/frontend/static/css/main.468e340f.css.map",
-    "main.869ed2b2.js.map": "/salary-calculator-2024-Q1-121780118/frontend/static/js/main.869ed2b2.js.map",
-    "453.8ab44547.chunk.js.map": "/salary-calculator-2024-Q1-121780118/frontend/static/js/453.8ab44547.chunk.js.map"
+    "main.css": "/salary-calculator-2024-Q1-121780118/static/css/main.468e340f.css",
+    "main.js": "/salary-calculator-2024-Q1-121780118/static/js/main.3bcf943d.js",
+    "static/js/453.8ab44547.chunk.js": "/salary-calculator-2024-Q1-121780118/static/js/453.8ab44547.chunk.js",
+    "index.html": "/salary-calculator-2024-Q1-121780118/index.html",
+    "main.468e340f.css.map": "/salary-calculator-2024-Q1-121780118/static/css/main.468e340f.css.map",
+    "main.3bcf943d.js.map": "/salary-calculator-2024-Q1-121780118/static/js/main.3bcf943d.js.map",
+    "453.8ab44547.chunk.js.map": "/salary-calculator-2024-Q1-121780118/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.468e340f.css",
-    "static/js/main.869ed2b2.js"
+    "static/js/main.3bcf943d.js"
   ]
 }
